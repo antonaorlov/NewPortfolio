@@ -19,10 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
+  Reacts,
   carrent,
   jobit,
   tripguide,
   threejs,
+  Tenzies
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +48,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React  Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Redux Framework",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "NextJS Framework",
     icon: creator,
   },
 ];
@@ -73,10 +75,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -89,18 +87,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -108,63 +94,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Developer Intern",
+    company_name: "PTP357 Studio",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2022 — Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided creative direction to a graphic design team, ensuring quality and consistency of all deliverables.",
+      "Developed websites using JavaScript, HTML, CSS",
+      "Collaborated on projects in advertising, wedding shows, event planning, and photography",
+      "Participating in code reviews and received constructive feedback",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Web Developer Intern",
+    company_name: "Verizon, Accenture",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jul 2021 — Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Winner of a contest to create a Smart Can concept, advancing New York City's smart city objectives",
+      "Built and deployed a website using HTML, CSS, JavaScript, and React (cleanercan.webflow.io).",
+      "Awarded a National Academy Financial (NAF) Certification for contributions and skills",
     ],
   },
 ];
@@ -198,58 +153,56 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VanVentures",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "VanVentures is a React-based web application, similar to Airbnb, but for renting vans. Using React Router, it incorporates features such as relative and absolute paths, nested routes, search params, and more. The application provides a robust user experience with smooth transitions between views, thorough error handling, and an engaging interface. ",
+      tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "React Router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    link:"https://ly5txw.csb.app/",
+    source_code_link: "https://github.com/antonaorlov/VanVentures",
   },
   {
-    name: "Job IT",
+    name: "React-Redux Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "React/Redux Comprehensive Project is an expansive and robust application built to dive deep into the concepts and practical usage of Redux with React. This project provides real-world scenarios for managing states with Redux, dispatching actions with payloads, slicing states, utilizing the Redux Toolkit, managing HTTP states, providing user feedback with Redux, fetching data with Redux, and using Redux with useEffect. ",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    link:"https://ng5s26.csb.app/",
+    source_code_link: "https://github.com/antonaorlov/react-redux",
   },
   {
-    name: "Trip Guide",
+    name: "API Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My Customized Dashboard is a versatile JavaScript project that aims to provide you with a concise yet comprehensive view of critical information through a simple and elegant UI. The project integrates three different APIs - Bitcoin API for the current bitcoin price, Unsplash API for beautiful random background images, and Weather API to provide you with the latest weather updates. The project can also be added as a Chrome extension, providing you with a powerful and productive new tab experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "API",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +211,54 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    link:"https://zzt98c.csb.app/",
+    source_code_link: "https://github.com/antonaorlov/API-Project",
+  },
+  {
+    name: "React-Concepts-Project",
+    description:
+      "The Comprehensive React Concepts Project is an extensive project designed to incorporate and demonstrate all major concepts of React. From the basic building blocks like components and states to more advanced concepts like context and portals.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: Reacts,
+    link:"https://7rsn8p.csb.app/",
+    source_code_link: "https://github.com/antonaorlov/React-Concepts-Project",
+  },
+  {
+    name: "Tenzies",
+    description:
+      "Tenzies is a simple and fun dice-based game developed using React. It incorporates advanced React concepts such as components, event listeners, conditional rendering, forms, and side effects.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: Tenzies,
+    link:"https://nv3l6k.csb.app/",
+    source_code_link: "https://github.com/antonaorlov/Tenzie-Game",
   },
 ];
 
