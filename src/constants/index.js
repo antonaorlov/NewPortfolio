@@ -16,7 +16,9 @@ import {
   figma,
   docker,
   meta,
+  nextjs,
   starbucks,
+  car,
   tesla,
   shopify,
   Reacts,
@@ -94,6 +96,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  }
 ];
 
 const experiences = [
@@ -152,6 +158,28 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+      name: "Carhub",
+      description:
+        "Carhub is a Next.js web app, akin to Renthub, for car rentals. It leverages Next.js14, React, and features like App Router and Server Side Rendering. It boasts Advanced Search, Filtering, Metadata, and SEO optimization. It crafts custom filter, combobox, and modal components while upholding organized file structure. TypeScript and Tailwind CSS are seamlessly integrated.",
+        tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React Router",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: car,
+      link:"https://capable-wisp-43ff67.netlify.app/",
+      source_code_link: "https://github.com/antonaorlov/Nextjs14-project",
+    },
   {
     name: "VanVentures",
     description:

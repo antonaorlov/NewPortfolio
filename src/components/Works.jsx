@@ -25,15 +25,16 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl xs:w-[300px] w-full '
+        className='bg-tertiary  rounded-2xl xs:w-[300px] w-full  '
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[200px] cursor-pointer' onClick={() => window.open(link, "_blank")}>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-3/4 object-cover rounded-2xl '
           />
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          
+          <div className='absolute inset-0 flex justify-end m-1 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -48,11 +49,11 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>
+        <div className='ml-2'>
+          <h3 className='text-white font-bold text-[24px] '>
             <a href={link}> {name}</a>
           </h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px] text'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -88,7 +89,7 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively. All the projects were made in CodeSandBox,
-          a online Coding Website that involves React
+          a online Coding Website that involves React, NextJs.
         </motion.p>
       </div>
 
