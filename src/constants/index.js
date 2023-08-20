@@ -223,7 +223,7 @@ const projects = [
     ],
     image: Robot,
     link:"https://antonaorlov.github.io/Robot/",
-    source_code_link: "https://github.com/antonaorlov/react-redux",
+    source_code_link: "https://github.com/antonaorlov/Robot",
   },
   {
     name: "React-Redux Application",
