@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from './linkedin.webp'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,6 +36,7 @@ import tripguide from "./tripguide.png";
 import Reacts from "./Reacts.png";
 import Tenzies from "./Tenzies.png";
 import car from './Car.png'
+import Robot from './robots.png'
 
 export {
   logo,
@@ -68,5 +70,7 @@ export {
   tripguide,
   Tenzies,
   nextjs,
-  car
+  car,
+  linkedin,
+  Robot
 };

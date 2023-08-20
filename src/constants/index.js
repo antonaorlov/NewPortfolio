@@ -26,7 +26,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  Tenzies
+  Tenzies,
+  Robot
 } from "../assets";
 
 export const navLinks = [
@@ -168,11 +169,11 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "React Router",
+          name: "NextJs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailswind",
           color: "pink-text-gradient",
         },
       ],
@@ -203,6 +204,28 @@ const projects = [
     source_code_link: "https://github.com/antonaorlov/VanVentures",
   },
   {
+    name: "Responsive Robot Application",
+    description:
+      "This project uses APIs from https://robohash.org/ to create a dynamic React grid of robots. Users can search for robots, with results narrowing down for a better experience on various devices. It utilizes JavaScript, React for interfaces, HTML/CSS for structure/style, and npm packages for efficient development, resulting in a functional and visually engaging app. ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Robot,
+    link:"https://antonaorlov.github.io/Robot/",
+    source_code_link: "https://github.com/antonaorlov/react-redux",
+  },
+  {
     name: "React-Redux Application",
     description:
       "React/Redux Comprehensive Project is an expansive and robust application built to dive deep into the concepts and practical usage of Redux with React. This project provides real-world scenarios for managing states with Redux, dispatching actions with payloads, slicing states, utilizing the Redux Toolkit, managing HTTP states, providing user feedback with Redux, fetching data with Redux, and using Redux with useEffect. ",
@@ -219,28 +242,6 @@ const projects = [
     image: jobit,
     link:"https://csb-ng5s26-5v3zlnrdy-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/react-redux",
-  },
-  {
-    name: "API Project",
-    description:
-      "My Customized Dashboard is a versatile JavaScript project that aims to provide you with a concise yet comprehensive view of critical information through a simple and elegant UI. The project integrates three different APIs - Bitcoin API for the current bitcoin price, Unsplash API for beautiful random background images, and Weather API to provide you with the latest weather updates. The project can also be added as a Chrome extension, providing you with a powerful and productive new tab experience.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    link:"https://zzt98c.csb.app/",
-    source_code_link: "https://github.com/antonaorlov/API-Project",
   },
   {
     name: "React-Concepts-Project",
