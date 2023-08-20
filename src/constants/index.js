@@ -199,7 +199,7 @@ const projects = [
       },
     ],
     image: carrent,
-    link:"https://ly5txw.csb.app/",
+    link:"https://csb-ly5txw-jmgow2k25-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/VanVentures",
   },
   {
@@ -217,7 +217,7 @@ const projects = [
       },
     ],
     image: jobit,
-    link:"https://ng5s26.csb.app/",
+    link:"https://csb-ng5s26-5v3zlnrdy-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/react-redux",
   },
   {
@@ -262,7 +262,7 @@ const projects = [
 
     ],
     image: Reacts,
-    link:"https://7rsn8p.csb.app/",
+    link:"https://csb-7rsn8p-94wygdonm-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/React-Concepts-Project",
   },
   {
@@ -285,7 +285,7 @@ const projects = [
 
     ],
     image: Tenzies,
-    link:"https://nv3l6k.csb.app/",
+    link:"https://csb-nv3l6k-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/Tenzie-Game",
   },
 ];
