@@ -16,9 +16,7 @@ import {
   figma,
   docker,
   meta,
-  nextjs,
   starbucks,
-  car,
   tesla,
   shopify,
   Reacts,
@@ -27,7 +25,13 @@ import {
   tripguide,
   threejs,
   Tenzies,
-  Robot
+  Ai,
+  nextjs,
+  car,
+  Robot,
+  github,
+  versel,
+  netlify
 } from "../assets";
 
 export const navLinks = [
@@ -47,15 +51,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React  Developer",
+    title: "React Framework",
     icon: mobile,
   },
   {
-    title: "Redux Framework",
+    title: "Designer",
     icon: backend,
   },
   {
@@ -82,10 +86,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -100,7 +100,19 @@ const technologies = [
   {
     name: "nextjs",
     icon: nextjs,
-  }
+  },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "versel",
+    icon: versel,
+  },
+  {
+    name: "netlify",
+    icon: netlify,
+  },
 ];
 
 const experiences = [
@@ -159,28 +171,50 @@ const testimonials = [
 ];
 
 const projects = [
-    {
-      name: "Carhub",
-      description:
-        "Carhub is a Next.js web app, akin to Renthub, for car rentals. It leverages Next.js14, React, and features like App Router and Server Side Rendering. It boasts Advanced Search, Filtering, Metadata, and SEO optimization. It crafts custom filter, combobox, and modal components while upholding organized file structure. TypeScript and Tailwind CSS are seamlessly integrated.",
-        tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NextJs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailswind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: car,
-      link:"https://capable-wisp-43ff67.netlify.app/",
-      source_code_link: "https://github.com/antonaorlov/Nextjs14-project",
-    },
+  {
+    name: "GymBuddy",
+    description:
+      "Gym Buddy Powered by Next 13's App Router and React, it boasts a sleek design with Tailwind's Shadcn UI. Backed by Prisma and MySQL for robust data management, and integrated with Stripe for secure payments. Using Openai, Replicate api keys; Stay connected and supported with Crisp chat. Embark on your tech-enhanced fitness journey today.",
+      tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Ai,
+    link:"https://ai-96a7.vercel.app/",
+    source_code_link: "https://github.com/antonaorlov/ai",
+  },
+  {
+    name: "Carhub",
+    description:
+      "Carhub is a Next.js web app, akin to Renthub, for car rentals. It leverages Next.js14, React, and features like App Router and Server Side Rendering. It boasts Advanced Search, Filtering, Metadata, and SEO optimization. It crafts custom filter, combobox, and modal components while upholding organized file structure. TypeScript and Tailwind CSS are seamlessly integrated. ",
+      tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailswind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: car,
+    link:"https://capable-wisp-43ff67.netlify.app/",
+    source_code_link: "https://github.com/antonaorlov/Nextjs14-project",
+  },
   {
     name: "VanVentures",
     description:
@@ -200,14 +234,14 @@ const projects = [
       },
     ],
     image: carrent,
-    link:"https://csb-ly5txw-jmgow2k25-antonaorlov.vercel.app/",
+    link:"https://csb-ly5txw.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/VanVentures",
   },
   {
     name: "Responsive Robot Application",
     description:
       "This project uses APIs from https://robohash.org/ to create a dynamic React grid of robots. Users can search for robots, with results narrowing down for a better experience on various devices. It utilizes JavaScript, React for interfaces, HTML/CSS for structure/style, and npm packages for efficient development, resulting in a functional and visually engaging app. ",
-    tags: [
+      tags: [
       {
         name: "React",
         color: "blue-text-gradient",
@@ -225,51 +259,12 @@ const projects = [
     link:"https://antonaorlov.github.io/Robot/",
     source_code_link: "https://github.com/antonaorlov/Robot",
   },
-  {
-    name: "React-Redux Application",
-    description:
-      "React/Redux Comprehensive Project is an expansive and robust application built to dive deep into the concepts and practical usage of Redux with React. This project provides real-world scenarios for managing states with Redux, dispatching actions with payloads, slicing states, utilizing the Redux Toolkit, managing HTTP states, providing user feedback with Redux, fetching data with Redux, and using Redux with useEffect. ",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jobit,
-    link:"https://csb-ng5s26-5v3zlnrdy-antonaorlov.vercel.app/",
-    source_code_link: "https://github.com/antonaorlov/react-redux",
-  },
-  {
-    name: "React-Concepts-Project",
-    description:
-      "The Comprehensive React Concepts Project is an extensive project designed to incorporate and demonstrate all major concepts of React. From the basic building blocks like components and states to more advanced concepts like context and portals.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-
-    ],
-    image: Reacts,
-    link:"https://csb-7rsn8p-94wygdonm-antonaorlov.vercel.app/",
-    source_code_link: "https://github.com/antonaorlov/React-Concepts-Project",
-  },
+  
+  
   {
     name: "Tenzies",
     description:
-      "Tenzies is a simple and fun dice-based game developed using React. It incorporates advanced React concepts such as components, event listeners, conditional rendering, forms, and side effects.",
+      "Tenzies is a simple and fun dice-based game developed using React. Components: The application uses a modular design with reusable React components.Event Listeners: Interaction with the game is handled using event listeners. Conditional Rendering: The application makes use of conditional rendering. Forms are used for starting a new game, inputting player names, and more. Side Effects: This application handles side effects using the React useEffect hook.",
     tags: [
       {
         name: "React",
@@ -289,6 +284,29 @@ const projects = [
     link:"https://csb-nv3l6k-antonaorlov.vercel.app/",
     source_code_link: "https://github.com/antonaorlov/Tenzie-Game",
   },
+  {
+    name: "API Project",
+    description:
+      "My Customized Dashboard is a versatile JavaScript project that aims to provide you with a concise yet comprehensive view of critical information through a simple and elegant UI. The project integrates three different APIs - Bitcoin API for the current bitcoin price, Unsplash API for beautiful random background images, and Weather API to provide you with the latest weather updates. The project can also be added as a Chrome extension, providing you with a powerful and productive new tab experience.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    link:"https://csb-zzt98c.netlify.app/",
+    source_code_link: "https://github.com/antonaorlov/API-Project",
+  },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

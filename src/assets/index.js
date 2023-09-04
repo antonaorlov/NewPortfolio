@@ -37,6 +37,10 @@ import Reacts from "./Reacts.png";
 import Tenzies from "./Tenzies.png";
 import car from './Car.png'
 import Robot from './robots.png'
+import Ai from './AI.png'
+import versel from './vercel.png'
+import netlify from './netlify.png'
+
 
 export {
   logo,
@@ -72,5 +76,8 @@ export {
   nextjs,
   car,
   linkedin,
-  Robot
+  Robot,
+  Ai,
+  versel,
+  netlify
 };

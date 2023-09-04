@@ -50,13 +50,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a motivated college student with a strong foundation in HTML, CSS,
-        and JavaScript, and extensive knowledge in frameworks like{" "}
-        <strong>React.js, Redux, and Next.js </strong>. Whether it's a small
-        business website or a complex web app, my goal is to create efficient,
-        scalable, and user-friendly solutions that can help drive success. I am
+         <strong>I'm a motivated college student</strong> with a strong foundation in<strong> HTML, CSS,
+        and JavaScript</strong>, and <strong>extensive knowledge in frameworks like{" "}</strong>
+        <strong>React.js, Next.js </strong>. Whether it's a small
+        business website or a complex web app, my goal is to create <strong>efficient,
+        scalable, and user-friendly solutions</strong> that can help drive success. I am
         excited to bring my unique perspective to your team and look forward to
-        the opportunity to contribute my skills and learn from industry
+        the opportunity to <strong>contribute my skills</strong> and learn from industry
         professionals. Thank you for considering my application. I look forward
         to the possibility of working together. <br />
         <div className="flex items-center">
